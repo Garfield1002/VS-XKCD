@@ -2,4 +2,4 @@
 
 Read xkcd without ever leaving VS code.
 
-![Screenshot](media\Screenshot.png)
+![Screenshot](\media\Screenshot.png)
