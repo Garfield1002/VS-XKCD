@@ -1,6 +1,6 @@
 {
   "name": "xkcd",
-  "displayName": "XKCD",
+  "displayName": "xkcd",
   "icon": "media/icon.png",
   "description": "Read xkcd cartoons from vscode",
   "version": "0.2.0",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Garfield1002/VS-XKCD.git"
+    "url": "https://github.com/Garfield1002/VS-XKCD"
   },
   "main": "./out/extension.js",
   "contributes": {
