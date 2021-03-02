@@ -1,6 +1,7 @@
 {
   "name": "xkcd",
   "displayName": "xkcd",
+  "icon": "media/icon.png",
   "description": "Read xkcd cartoons from vscode",
   "version": "1.1.0",
   "publisher": "JackRoyer",
@@ -13,10 +14,6 @@
   "activationEvents": [
     "onView:xkcd-sidebar"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Garfield1002/VS-XKCD"
-  },
   "main": "./out/extension.js",
   "contributes": {
     "viewsContainers": {
