@@ -8,6 +8,10 @@
   "engines": {
     "vscode": "^1.53.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Garfield1002/VS-XKCD"
+  },
   "categories": [
     "Other"
   ],
