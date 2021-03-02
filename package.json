@@ -3,7 +3,7 @@
   "displayName": "XKCD",
   "icon": "media/icon.png",
   "description": "Read xkcd cartoons from vscode",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "JackRoyer",
   "engines": {
     "vscode": "^1.53.0"
