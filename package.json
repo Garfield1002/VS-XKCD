@@ -1,7 +1,6 @@
 {
   "name": "xkcd",
   "displayName": "xkcd",
-  "icon": "media/icon.png",
   "description": "Read xkcd cartoons from vscode",
   "version": "1.0.0",
   "publisher": "JackRoyer",
