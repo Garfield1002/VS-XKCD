@@ -8,4 +8,4 @@ One of the few _anti-productivity_ extensions out there.
 
 **Full disclosure: although, xkcd have given me their permission to distribute this extension, they do not endorse it in any way.**
 
-Don't forget to also check out the actual website at https://xkcd.com/.
+Don't forget to also check out the actual [website](https://xkcd.com/).
