@@ -2,7 +2,7 @@
   "name": "xkcd",
   "displayName": "xkcd",
   "description": "Read xkcd cartoons from vscode",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "publisher": "JackRoyer",
   "engines": {
     "vscode": "^1.53.0"
