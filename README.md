@@ -2,4 +2,4 @@
 
 Read xkcd without ever leaving VS code.
 
-![Screenshot](\media\Screenshot.png)
+![Screenshot](https://github.com/Garfield1002/VS-XKCD/blob/main/media/Screenshot.png?raw=true)
