@@ -37,7 +37,7 @@ class ViewProvider {
 					Use a content security policy to only allow loading images from https or from our extension directory,
 					and only allow scripts that have a specific nonce.
 				-->
-        <meta http-equiv="Content-Security-Policy" content="default-src https://xkcd.now.sh; style-src ${webview.cspSource}; script-src 'nonce-${nonce}'; img-src https://imgs.xkcd.com/comics/;">
+        <meta http-equiv="Content-Security-Policy" content="default-src https://xkcd.vercel.app; style-src ${webview.cspSource}; script-src 'nonce-${nonce}'; img-src https://imgs.xkcd.com/comics/;">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<link href="${styleResetUri}" rel="stylesheet">
 				<link href="${styleMainUri}" rel="stylesheet">

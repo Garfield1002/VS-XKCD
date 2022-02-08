@@ -10,7 +10,7 @@
   document.getElementById("linkToRnd").addEventListener("click", getRndComic);
 
   let LATEST_NUM;
-  fetch("https://xkcd.now.sh/?comic=latest")
+  fetch("https://xkcd.vercel.app/?comic=latest")
     .then((data) => {
       return data.json();
     })
@@ -41,6 +41,7 @@
   }
 
   function getPrevComic() {
+    console.log("Previous");
     getComic(Math.max(num - 1, 1));
   }
 
