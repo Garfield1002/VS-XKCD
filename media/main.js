@@ -49,7 +49,7 @@
   }
 
   function getComic(query) {
-    const comicUrl = `https://xkcd.now.sh/?comic=${query}`;
+    const comicUrl = `https://xkcd.vercel.app/?comic=${query}`;
 
     fetch(comicUrl)
       .then((data) => {
