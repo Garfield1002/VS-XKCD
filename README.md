@@ -1,5 +1,7 @@
 # xkcd for VSCode
 
+> Install it on the [visual studio marketplace](https://marketplace.visualstudio.com/items?itemName=JackRoyer.xkcd)
+
 Read xkcd without ever leaving VS code.
 
 One of the few _anti-productivity_ extensions out there.
