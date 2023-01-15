@@ -59,7 +59,7 @@ class ViewProvider {
         </div>
         <br>
         <div id="clink">
-        Permanent link to this comic: https://xkcd.com/614/
+        Permanent link to this comic: <a href="https://xkcd.com/614/">https://xkcd.com/614/</a>
         </div>
         <br>
 				<script nonce="${nonce}" src="${scriptUri}"></script>

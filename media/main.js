@@ -17,15 +17,16 @@
     .then((res) => {
       LATEST_NUM = res.num;
       num = res.num;
-      updateComic(num, res.title, res.img);
+      updateComic(num, res.title, res.img, res.alt);
     });
 
-  function updateComic(num, title, img) {
+  function updateComic(num, title, img, alt) {
     document.querySelector("#ctitle").innerHTML = title;
     document.querySelector("#cimage").src = img;
+    document.querySelector("#cimage").title = alt;
     document.querySelector(
       "#clink"
-    ).innerHTML = `Permanent link to this comic: https://xkcd.com/${num}/`;
+    ).innerHTML = `Permanent link to this comic: <a href="https://xkcd.com/${num}/">https://xkcd.com/${num}/</a>`;
   }
 
   function getFirstComic() {
@@ -41,7 +42,6 @@
   }
 
   function getPrevComic() {
-    console.log("Previous");
     getComic(Math.max(num - 1, 1));
   }
 
@@ -58,8 +58,7 @@
       })
       .then((res) => {
         num = res.num;
-        updateComic(num, res.title, res.img);
-        console.log(res);
+        updateComic(num, res.title, res.img, res.alt);
       });
   }
 })();
